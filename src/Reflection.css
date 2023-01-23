@@ -1,0 +1,59 @@
+.narrow {
+    margin-top: 230px;
+    width: 950px;
+    margin-left: 250px;
+    text-align: justify;
+    font-size: 35px;
+}
+
+.What {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.SoWhat {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.NowWhat {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.title {
+    margin-top: 100px;
+    font-size: 300px;
+    text-align: center;
+    animation: fade 2s;
+    font-family: 'OCR A Std, monospace';
+
+}
+
+
+.LooksLike{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        
+    }
+
+
+    to {
+        opacity: 1;
+        
+    }
+}

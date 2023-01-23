@@ -1,0 +1,108 @@
+.plan1 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    transition: .5s;
+}
+.plan2 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    transition: .5s;
+
+}
+.plan3 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    transition: .5s;
+
+}
+
+.planall {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desc1{
+    position: relative;
+      top: 50%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+      margin-top: 55px;
+      font-size: 40px;
+      margin-left: 200px;
+    font-family: 'OCR A Std, monospace';
+    font-size: 30px;
+    animation: typewriter 1s steps(30) 1s 1 normal both,
+      blinkTextCursor 500ms steps(60) infinite normal, fade; 
+      
+}
+.desc2{
+    position: relative;
+      top: 50%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+      margin-top: -30px;
+      font-size: 40px;
+      margin-left: 600px;
+    font-family: 'OCR A Std, monospace';
+    font-size: 30px;
+    animation: typewriter 3s steps(30) 1s 1 normal both,
+      blinkTextCursor 500ms steps(60) infinite normal, fade; 
+      
+}
+.desc3{
+    position: relative;
+      top: 50%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+      margin-top: -30px;
+      font-size: 40px;
+      margin-left: 1100px;
+    font-family: 'OCR A Std, monospace';
+    font-size: 30px;
+    animation: typewriter 5s steps(30) 1s 1 normal both,
+      blinkTextCursor 500ms steps(60) infinite normal, fade; 
+      
+}
+
+
+.plan1:hover{
+    width:500px;
+    height:500px;
+}
+.plan2:hover{
+    width:500px;
+    height:500px;
+}
+.plan3:hover{
+    width:500px;
+    height:500px;
+}
+.plan1:active{
+    width: 600px;
+    height: 600px;
+ }
+
+ .plan2:active{
+    width: 600px;
+    height: 600px;
+ }
+
+ .plan3:active{
+    width: 600px;
+    height: 600px;
+ }

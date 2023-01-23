@@ -1,0 +1,131 @@
+.num1 {
+    font-size: 50px;
+}
+
+.Nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 120px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(4, 170, 109, .25);
+    transition: .2s;
+ }
+ .Nav ul li:hover {
+    background-color: rgba(4, 170, 109, .75);
+
+ }
+
+ .Nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+
+ .ins1 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    animation: all 3s;
+    transition: .5s;
+ }
+.ins1:hover{
+    width:500px;
+    height:500px;
+}
+.ins2:hover{
+    width:500px;
+    height:500px;
+}
+.ins3:hover{
+    width:500px;
+    height:500px;
+}
+ .ins2 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    animation: all 5s;
+    transition: .5s;
+
+ }
+ .ins2:active{
+    width: 600px;
+    height: 600px;
+ }
+
+ .ins1:active{
+    width: 600px;
+    height: 600px;
+ }
+ .ins3:active{
+    width: 600px;
+    height: 600px;
+ }
+ .ins3 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    animation: all 7s;
+    transition: .5s;
+
+ }
+
+ @keyframes all {
+    from {
+        opacity: 0;
+        transform: rotateX(-30deg);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.dun {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.blurb2 {
+    position: relative;
+      top: 50%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+      margin-top: 40px;
+      font-size: 40px;
+      margin-left: 150px;
+    font-family: 'OCR A Std, monospace';
+    font-size: 30px;
+    animation: het 4s steps(60) 1s 1 normal both,
+      btc 500ms steps(60) infinite normal, fade; 
+      
+   text-align: center;
+}
+
+@keyframes het {
+    from {
+          width: 0;
+    }
+    to {
+          width: 37em;
+    }
+}
+
+@keyframes btc {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}

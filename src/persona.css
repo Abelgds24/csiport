@@ -1,0 +1,155 @@
+.Persona1{
+    width: 800px;
+    height: 500px;
+    margin-top: 10;
+    animation: all 2s;
+    transition: .8s;
+
+}
+
+
+
+
+.Persona2{
+    width: 800px;
+    height: 500px;
+    margin-top: 10;
+    animation: all 2s;
+    transition: .8s;
+
+
+}
+.Persona3{
+    width: 800px;
+    height: 500px;
+    margin-top: 10;
+    animation: all 2s;
+    transition: .8s;
+
+
+}
+.p2{
+   
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Inconsolata';
+    border-radius: 30px;
+    transition: .5s;
+    margin-left: 650px;
+    margin-top: 10px;
+    animation: fade 3s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+        
+    }
+
+
+    to {
+        opacity: 1;
+        
+    }
+}
+
+
+/* .Persona2:hover{
+    width: 500px;
+    height: 400px;
+}
+.Persona3{
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    animation: all 2s;
+    transition: .8s;
+
+}
+.Persona3:hover{
+    width: 500px;
+    height: 400px;
+    
+} */
+
+
+.imgall {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.blurb3 {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+    margin-top: 40px;
+    font-size: 40px;
+    margin-left: 150px;
+  font-family: 'OCR A Std, monospace';
+  font-size: 30px;
+  animation: nxt 4s steps(60) 1s 1 normal both,
+    bxt 500ms steps(60) infinite normal, fade; 
+    
+ text-align: center;
+}
+
+
+@keyframes nxt {
+    from {
+          width: 0;
+    }
+    to {
+          width: 37em;
+    }
+}
+
+@keyframes bxt {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+
+@keyframes all {
+    from {
+        opacity: 0;
+        transform: rotateX(-30deg);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+.link2 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Inconsolata';
+    border-radius: 30px;
+    transition: .5s;
+    margin-left: 320px;
+    margin-top: -200px;
+}
